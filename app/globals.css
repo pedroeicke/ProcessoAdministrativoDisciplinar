@@ -998,6 +998,10 @@ section[id] {
   margin-top: 40px;
   align-items: start;
 }
+/* itens de grid precisam poder encolher (min-width auto causa overflow). */
+.ct-grid > * {
+  min-width: 0;
+}
 @media (max-width: 780px) {
   .ct-grid {
     grid-template-columns: 1fr;
@@ -1013,6 +1017,10 @@ section[id] {
   text-decoration: none;
   font-size: 1.05rem;
   transition: color 0.3s;
+  /* valores longos (e-mail/Instagram) podem quebrar e não estouram a margem. */
+  flex-wrap: wrap;
+  overflow-wrap: anywhere;
+  min-width: 0;
 }
 .ct-links a:hover {
   color: var(--g2);
