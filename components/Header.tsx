@@ -27,7 +27,12 @@ export default function Header() {
               {l.label}
             </a>
           ))}
-          <a className="btn" href={site.inscricaoHref}>
+          <a
+            className="btn"
+            href={site.inscricaoHref}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Inscreva-se
           </a>
         </div>

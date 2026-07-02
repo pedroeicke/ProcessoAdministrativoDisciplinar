@@ -9,10 +9,10 @@ export type Modulo = {
 
 export const modulos: Modulo[] = [
   {
-    num: "01",
+    num: "1",
     titulo: "Fundamentos, Omissão & TAC",
     foco: "Abertura, dever de agir e soluções rápidas.",
-    professor: "Bruna Kelly",
+    professor: "Ms. Bruna Kelly",
     topicos: [
       { termo: "Diretrizes da Lei", descricao: "A Lei Complementar n. 491/2010 estabelece normas sobre o procedimento administrativo disciplinar em SC para uniformizar as ações." },
       { termo: "Norte para os Municípios", descricao: "Esta lei serve como um guia seguro para os municípios catarinenses, evitando que gestores fiquem omissos ou errem por falta de regulamentação local." },
@@ -23,10 +23,10 @@ export const modulos: Modulo[] = [
     ],
   },
   {
-    num: "02",
+    num: "2",
     titulo: "Investigações & Rito Sumário",
     foco: "O que antecede o processo ou o que é resolvido com agilidade.",
-    professor: "Maicon Antunes",
+    professor: "Esp. Maicon Antunes",
     topicos: [
       { termo: "Sindicância Investigativa", descricao: "Usada quando o fato ou a autoria não estão claros, servindo como preparação." },
       { termo: "Sindicância Patrimonial", descricao: "Procedimento sigiloso para apurar sinais de riqueza incompatível com os recursos do servidor." },
@@ -36,10 +36,10 @@ export const modulos: Modulo[] = [
     ],
   },
   {
-    num: "03",
+    num: "3",
     titulo: "Sindicância Acusatória, PAD & Provas",
     foco: "Fase técnica, dinâmica de audiências e produção de provas.",
-    professor: "Noel Baratieri",
+    professor: "Dr. Noel Baratieri",
     topicos: [
       { termo: "Sindicância Acusatória", descricao: "Rito usado para aplicar penas de suspensão de até 30 dias." },
       { termo: "Instauração do PAD", descricao: "Obrigatória para penas acima de 30 dias de suspensão, demissão ou cassação de aposentadoria. Conduzida por 3 servidores estáveis." },
@@ -52,10 +52,10 @@ export const modulos: Modulo[] = [
     ],
   },
   {
-    num: "04",
+    num: "4",
     titulo: "Defesa, Julgamento & Recursos",
     foco: "Encerramento da instrução, garantias do servidor e decisão final.",
-    professor: "Lucas Rodrigues Alves",
+    professor: "Ms. Lucas Rodrigues Alves",
     topicos: [
       { termo: "Direito de Defesa", descricao: "Após o relatório de instrução, abre-se o prazo de 15 dias para a defesa técnica." },
       { termo: "Revelia", descricao: "Se o acusado não se defender, a comissão nomeia um defensor para garantir o direito de defesa." },

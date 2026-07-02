@@ -39,10 +39,10 @@ export default function DataLocal() {
                 ✎
               </div>
               <div>
-                <h5>Carga horária</h5>
+                <h5>16 horas</h5>
                 <p>
-                  Conteúdo distribuído em 4 módulos temáticos, com certificado de
-                  participação.
+                  Carga horária distribuída em 4 módulos temáticos, com certificado
+                  de participação.
                 </p>
               </div>
             </div>

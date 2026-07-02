@@ -10,8 +10,8 @@ export const publico: Publico[] = [
 export type Porque = { num: string; titulo: string; texto: string };
 
 export const porque: Porque[] = [
-  { num: "01", titulo: "Instaurar", texto: "Saber quando e como abrir cada rito — TAC, sindicância, sumário ou PAD — sem omissão nem excesso." },
-  { num: "02", titulo: "Apurar", texto: "Dominar a fase de instrução, as provas, os prazos e a dinâmica das audiências com segurança técnica." },
-  { num: "03", titulo: "Decidir", texto: "Julgar com motivação, dosando a pena e respeitando o contraditório e a ampla defesa." },
-  { num: "04", titulo: "Proteger", texto: "Resguardar o servidor e a Administração contra nulidades, responsabilização e retrabalho." },
+  { num: "1", titulo: "Instaurar", texto: "Saber quando e como abrir cada rito — TAC, sindicância, sumário ou PAD — sem omissão nem excesso." },
+  { num: "2", titulo: "Apurar", texto: "Dominar a fase de instrução, as provas, os prazos e a dinâmica das audiências com segurança técnica." },
+  { num: "3", titulo: "Decidir", texto: "Julgar com motivação, dosando a pena e respeitando o contraditório e a ampla defesa." },
+  { num: "4", titulo: "Proteger", texto: "Resguardar o servidor e a Administração contra nulidades, responsabilização e retrabalho." },
 ];

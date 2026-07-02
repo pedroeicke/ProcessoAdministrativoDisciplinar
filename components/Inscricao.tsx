@@ -21,7 +21,7 @@ export default function Inscricao() {
             </p>
             <ul className="incl">
               <li>Acesso aos 4 módulos temáticos</li>
-              <li>Material de apoio sobre a LCE n. 491/2010</li>
+              <li>Material de apoio sobre a LCE n. 491/2010 + legislação local</li>
               <li>Certificado de participação</li>
               <li>Interação direta com o corpo docente</li>
             </ul>
@@ -33,6 +33,8 @@ export default function Inscricao() {
             <a
               className="btn btn-solid"
               href={site.inscricaoHref}
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ textAlign: "center" }}
             >
               Quero me inscrever

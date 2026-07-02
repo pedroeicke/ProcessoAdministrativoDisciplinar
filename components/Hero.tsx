@@ -34,7 +34,12 @@ export default function Hero() {
               Direito Administrativo de Santa Catarina.
             </p>
             <div className="cta-row">
-              <a className="btn btn-solid" href={site.inscricaoHref}>
+              <a
+                className="btn btn-solid"
+                href={site.inscricaoHref}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Garantir minha vaga
               </a>
               <a className="btn" href="#programa">
@@ -44,7 +49,7 @@ export default function Hero() {
           </div>
 
           <aside className="hero-index" aria-label="As quatro frentes do programa">
-            <span className="hero-index-label">O Programa · 04 frentes</span>
+            <span className="hero-index-label">O Programa · 4 frentes</span>
             {modulos.map((m) => (
               <a className="hero-index-item" href="#programa" key={m.num}>
                 <span className="hix-num">{m.num}</span>
@@ -61,15 +66,15 @@ export default function Hero() {
           </div>
           <div className="m">
             <div className="k">Módulos</div>
-            <div className="v">04 frentes</div>
+            <div className="v">4 frentes</div>
           </div>
           <div className="m">
             <div className="k">Corpo docente</div>
-            <div className="v">04 advogados</div>
+            <div className="v">4 advogados</div>
           </div>
           <div className="m">
             <div className="k">Base legal</div>
-            <div className="v">LCE 491/2010</div>
+            <div className="v">LCE 491/2010 + legislação local</div>
           </div>
         </div>
       </div>

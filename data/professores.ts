@@ -10,9 +10,9 @@ export type Professor = {
 
 export const professores: Professor[] = [
   {
-    nome: "Noel Antonio Baratieri",
+    nome: "Dr. Noel Baratieri",
     iniciais: "NB",
-    papel: "Advogado",
+    papel: "Apresentador",
     foto: "/professores/noel.jpg",
     resumo:
       "Doutor e Mestre em Direito do Estado pela Universidade Federal de Santa Catarina (UFSC), o Dr. Noel é especialista em Direito Administrativo pelo CESUSC/SC e graduado em Direito também pela UFSC. Possui uma trajetória marcada pela atuação acadêmica e institucional de alto nível.",
@@ -24,9 +24,9 @@ export const professores: Professor[] = [
     ],
   },
   {
-    nome: "Maicon José Antunes",
+    nome: "Esp. Maicon Antunes",
     iniciais: "MA",
-    papel: "Advogado",
+    papel: "Apresentador",
     foto: "/professores/maicon.jpg",
     resumo:
       "Graduado pelo CESUSC, é especialista em Direito Penal e Processo Penal pelo Complexo Damásio de Jesus e pós-graduando em Regime Próprio de Previdência Social.",
@@ -38,9 +38,9 @@ export const professores: Professor[] = [
     ],
   },
   {
-    nome: "Bruna Kelly",
+    nome: "Ms. Bruna Kelly",
     iniciais: "BK",
-    papel: "Advogada",
+    papel: "Apresentadora",
     foto: "/professores/bruna.jpg",
     resumo:
       "Graduada em Direito pela Universidade Federal de Santa Catarina (UFSC) e Mestranda em Direito pela mesma instituição.",
@@ -51,9 +51,9 @@ export const professores: Professor[] = [
     ],
   },
   {
-    nome: "Lucas Rodrigues Alves",
+    nome: "Ms. Lucas Rodrigues Alves",
     iniciais: "LA",
-    papel: "Advogado",
+    papel: "Apresentador",
     foto: "/professores/lucas.jpg",
     resumo:
       "Graduado em Direito pela Universidade Federal de Santa Catarina (UFSC) e especialista em Ciências Criminais pela PUC Minas.",

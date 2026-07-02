@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Hanken_Grotesk } from "next/font/google";
 import SmoothScroll from "@/components/SmoothScroll";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { site } from "@/data/site";
 import "./globals.css";
 
@@ -43,6 +44,7 @@ export default function RootLayout({
     >
       <body suppressHydrationWarning>
         <SmoothScroll>{children}</SmoothScroll>
+        <WhatsAppButton />
       </body>
     </html>
   );

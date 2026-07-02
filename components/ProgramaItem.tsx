@@ -17,8 +17,8 @@ export default function ProgramaItem({
 }) {
   const headId = `prog-head-${modulo.num}`;
   const panelId = `prog-panel-${modulo.num}`;
-  // Bruna (módulo 01) é a única apresentadora; demais no masculino, como no mock.
-  const role = modulo.num === "01" ? "Apresentadora" : "Apresentador";
+  // Bruna (módulo 1) é a única apresentadora; demais no masculino, como no mock.
+  const role = modulo.num === "1" ? "Apresentadora" : "Apresentador";
 
   const onKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (e.key === "Enter" || e.key === " ") {

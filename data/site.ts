@@ -42,8 +42,10 @@ export const site = {
     obs: "Por participante. Condições e formas de pagamento sob consulta.",
   },
   contato: {
-    // PLACEHOLDER — telefone comercial ainda não informado pelo cliente.
-    whatsapp: { label: "(48) 0 0000-0000", href: "#" },
+    whatsapp: {
+      label: "+55 48 9195-6165",
+      href: "https://wa.me/554891956165",
+    },
     email: {
       label: "inbcontratacoespublicas@gmail.com",
       href: "mailto:inbcontratacoespublicas@gmail.com",
@@ -53,7 +55,9 @@ export const site = {
       href: "https://www.instagram.com/inb_projetos_consultorias/",
     },
   },
-  inscricaoHref: "#inscricao",
+  // Inscrição leva direto ao WhatsApp com mensagem pré-preenchida.
+  inscricaoHref:
+    "https://wa.me/554891956165?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20Curso%20de%20Processo%20Administrativo%20Disciplinar%20%28PAD%2FSC%29.%20Poderiam%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%3F",
 } as const;
 
 // Itens de navegação compartilhados entre Header e Footer.
