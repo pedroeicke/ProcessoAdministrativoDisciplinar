@@ -7,7 +7,7 @@
 export const site = {
   brand: {
     sigla: "INB",
-    sub: "Projetos & Consultorias",
+    sub: "Projetos e Consultorias",
     legal: "INB Projetos e Consultorias",
   },
   curso: {
@@ -17,17 +17,19 @@ export const site = {
   },
   meta: {
     title:
-      "Curso de Processo Administrativo Disciplinar — SC · INB Projetos e Consultorias",
+      "Curso de Processo Administrativo Disciplinar · SC · INB Projetos e Consultorias",
     description:
-      "Curso presencial de Processo Administrativo Disciplinar à luz da LCE n. 491/2010. 20 e 21 de agosto de 2026, em Florianópolis — SC. Realização: INB Projetos e Consultorias.",
+      "Curso presencial de Processo Administrativo Disciplinar à luz da LCE n. 491/2010. 16 e 17 de setembro de 2026, em Florianópolis, SC. Realização: INB Projetos e Consultorias.",
   },
-  // Data, local e investimento confirmados pelo cliente (02/06/2026).
+  // Data, local e investimento confirmados pelo cliente (correções 13/07/2026).
   evento: {
-    data: { label: "20 e 21 de agosto de 2026", curto: "20–21 ago 2026" },
+    data: { label: "16 e 17 de setembro de 2026", curto: "16 e 17 set 2026" },
+    horario: "08h às 12h e 14h às 18h",
     local: {
       nome: "Square SC",
-      endereco: "Rod. José Carlos Daux, 5500 — Saco Grande",
-      cidade: "Florianópolis — SC",
+      sala: "Sala 06",
+      endereco: "Rod. José Carlos Daux, 5500, Saco Grande",
+      cidade: "Florianópolis, SC",
       cep: "88032-005",
       // Link de mapa por busca de endereço (não depende de place ID).
       mapsHref:
@@ -39,7 +41,17 @@ export const site = {
   },
   investimento: {
     valor: "R$ 2.000,00",
-    obs: "Por participante. Condições e formas de pagamento sob consulta.",
+    obs: "Por participante.",
+    pagamento: {
+      razaoSocial: "INB Projetos e Consultorias LTDA",
+      cnpj: "07.682.209.000.121",
+      instrucao:
+        "Envio de Nota de Empenho/Ordem de Serviço ou Autorização de Fornecimento, com posterior pagamento na conta bancária abaixo:",
+      banco: "Banco SICOOB 756, Agência 3326-0, Conta 7.682-1",
+      pix: "07.682.209.000.121",
+      obsPrivado:
+        "Para o mercado privado, outras opções de pagamento estarão disponíveis: Boleto, Transferência bancária, Depósito ou Pix.",
+    },
   },
   contato: {
     whatsapp: {
@@ -55,9 +67,8 @@ export const site = {
       href: "https://www.instagram.com/inb_projetos_consultorias/",
     },
   },
-  // Inscrição leva direto ao WhatsApp com mensagem pré-preenchida.
-  inscricaoHref:
-    "https://wa.me/554891956165?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20Curso%20de%20Processo%20Administrativo%20Disciplinar%20%28PAD%2FSC%29.%20Poderiam%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%3F",
+  // Inscrição leva ao formulário oficial (Google Forms).
+  inscricaoHref: "https://forms.gle/eyYcQK3xoR6wnwxYA",
 } as const;
 
 // Itens de navegação compartilhados entre Header e Footer.
@@ -66,5 +77,5 @@ export const navLinks = [
   { label: "Programa", href: "#programa" },
   { label: "Professores", href: "#docentes" },
   { label: "Para quem é", href: "#publico" },
-  { label: "Data & Local", href: "#local" },
+  { label: "Data e Local", href: "#local" },
 ] as const;

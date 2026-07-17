@@ -10,7 +10,7 @@ export type Modulo = {
 export const modulos: Modulo[] = [
   {
     num: "1",
-    titulo: "Fundamentos, Omissão & TAC",
+    titulo: "Fundamentos, Omissão e TAC",
     foco: "Abertura, dever de agir e soluções rápidas.",
     professor: "Ms. Bruna Kelly",
     topicos: [
@@ -24,7 +24,7 @@ export const modulos: Modulo[] = [
   },
   {
     num: "2",
-    titulo: "Investigações & Rito Sumário",
+    titulo: "Investigações e Rito Sumário",
     foco: "O que antecede o processo ou o que é resolvido com agilidade.",
     professor: "Esp. Maicon Antunes",
     topicos: [
@@ -37,7 +37,7 @@ export const modulos: Modulo[] = [
   },
   {
     num: "3",
-    titulo: "Sindicância Acusatória, PAD & Provas",
+    titulo: "Sindicância Acusatória, PAD e Provas",
     foco: "Fase técnica, dinâmica de audiências e produção de provas.",
     professor: "Dr. Noel Baratieri",
     topicos: [
@@ -53,9 +53,9 @@ export const modulos: Modulo[] = [
   },
   {
     num: "4",
-    titulo: "Defesa, Julgamento & Recursos",
+    titulo: "Defesa, Julgamento e Recursos",
     foco: "Encerramento da instrução, garantias do servidor e decisão final.",
-    professor: "Ms. Lucas Rodrigues Alves",
+    professor: "Esp. Lucas Rodrigues Alves",
     topicos: [
       { termo: "Direito de Defesa", descricao: "Após o relatório de instrução, abre-se o prazo de 15 dias para a defesa técnica." },
       { termo: "Revelia", descricao: "Se o acusado não se defender, a comissão nomeia um defensor para garantir o direito de defesa." },

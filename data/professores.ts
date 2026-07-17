@@ -12,7 +12,7 @@ export const professores: Professor[] = [
   {
     nome: "Dr. Noel Baratieri",
     iniciais: "NB",
-    papel: "Apresentador",
+    papel: "Professor",
     foto: "/professores/noel.jpg",
     resumo:
       "Doutor e Mestre em Direito do Estado pela Universidade Federal de Santa Catarina (UFSC), o Dr. Noel é especialista em Direito Administrativo pelo CESUSC/SC e graduado em Direito também pela UFSC. Possui uma trajetória marcada pela atuação acadêmica e institucional de alto nível.",
@@ -26,7 +26,7 @@ export const professores: Professor[] = [
   {
     nome: "Esp. Maicon Antunes",
     iniciais: "MA",
-    papel: "Apresentador",
+    papel: "Professor",
     foto: "/professores/maicon.jpg",
     resumo:
       "Graduado pelo CESUSC, é especialista em Direito Penal e Processo Penal pelo Complexo Damásio de Jesus e pós-graduando em Regime Próprio de Previdência Social.",
@@ -40,25 +40,26 @@ export const professores: Professor[] = [
   {
     nome: "Ms. Bruna Kelly",
     iniciais: "BK",
-    papel: "Apresentadora",
+    papel: "Professora",
     foto: "/professores/bruna.jpg",
     resumo:
-      "Graduada em Direito pela Universidade Federal de Santa Catarina (UFSC) e Mestranda em Direito pela mesma instituição.",
+      "Mestre em Direito pela Universidade Federal de Santa Catarina (UFSC) e graduada em Direito também pela UFSC.",
     blocos: [
-      { titulo: "Experiência", texto: "Possui experiência prática com atuação na Vara de Direito Militar da Comarca da Capital/SC." },
-      { titulo: "Institucional", texto: "É membro da Comissão de Direito Militar da OAB/SC e possui histórico de liderança acadêmica como ex-coordenadora do Centro Acadêmico de Direito da UFSC (CAXIF)." },
+      { titulo: "Institucional", texto: "É membro da Comissão de Direito Militar da OAB/SC, possui histórico de liderança acadêmica como coordenadora do Centro Acadêmico de Direito da UFSC (CAXIF) e experiência prática com atuação na Vara de Direito Militar da Comarca da Capital/SC." },
       { titulo: "Docência", texto: "Professora de cursos de atualização e aperfeiçoamento voltados à área de Servidor Público e de Processo Administrativo Disciplinar." },
+      { titulo: "Produção Acadêmica", texto: "Coautora da obra “Direito Administrativo Sancionador Ambiental”." },
+      { titulo: "Áreas de Atuação", texto: "Especializada em Direito Administrativo Disciplinar e Agentes Públicos." },
     ],
   },
   {
-    nome: "Ms. Lucas Rodrigues Alves",
+    nome: "Esp. Lucas Rodrigues Alves",
     iniciais: "LA",
-    papel: "Apresentador",
+    papel: "Professor",
     foto: "/professores/lucas.jpg",
     resumo:
       "Graduado em Direito pela Universidade Federal de Santa Catarina (UFSC) e especialista em Ciências Criminais pela PUC Minas.",
     blocos: [
-      { titulo: "Institucional", texto: "Atua como membro da Comissão de Direito Penal e da Advocacia Criminal da OAB/SC, além de integrar a Associação Brasileira dos Advogados Criminalistas (ABRACRIM)." },
+      { titulo: "Institucional", texto: "Atua como membro das Comissões de Direito Administrativo e do Servidor Público, Direito Penal e da Advocacia Criminal da OAB/SC, além de integrar a Associação Brasileira dos Advogados Criminalistas (ABRACRIM)." },
       { titulo: "Áreas de Atuação", texto: "Sua prática jurídica é concentrada nas áreas de Direito Penal e defesa de Agentes Públicos." },
       { titulo: "Docência", texto: "Professor de cursos de atualização e aperfeiçoamento voltados à área de Servidor Público e de Processo Administrativo Disciplinar." },
     ],

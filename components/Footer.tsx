@@ -38,7 +38,7 @@ export default function Footer() {
           <span>
             © {ano} {site.brand.legal}. Todos os direitos reservados.
           </span>
-          <span>Curso de Processo Administrativo Disciplinar — LCE n. 491/2010 / SC</span>
+          <span>Curso de Processo Administrativo Disciplinar, LCE n. 491/2010, SC</span>
         </div>
       </div>
     </footer>

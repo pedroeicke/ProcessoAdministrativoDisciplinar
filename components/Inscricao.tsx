@@ -39,11 +39,20 @@ export default function Inscricao() {
             >
               Quero me inscrever
             </a>
-            <div className="pay">
-              <span>PIX</span>
-              <span>Cartão</span>
-              <span>Boleto</span>
-              <span>Nota de Empenho</span>
+            <div className="pay-info">
+              <div className="pay-title">Pagamento · Nota de Empenho</div>
+              <p className="pay-org">
+                {site.investimento.pagamento.razaoSocial}
+                <br />
+                CNPJ {site.investimento.pagamento.cnpj}
+              </p>
+              <p>{site.investimento.pagamento.instrucao}</p>
+              <p className="pay-bank">
+                {site.investimento.pagamento.banco}
+                <br />
+                Pix: {site.investimento.pagamento.pix}
+              </p>
+              <p className="pay-obs">{site.investimento.pagamento.obsPrivado}</p>
             </div>
           </div>
         </Reveal>

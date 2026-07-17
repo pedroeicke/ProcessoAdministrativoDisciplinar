@@ -7,7 +7,7 @@ export default function DataLocal() {
   return (
     <section className="local sec-pad" id="local">
       <div className="wrap">
-        <SectionHead eyebrow="Data & Local">
+        <SectionHead eyebrow="Data e Local">
           Onde e quando <span className="it gold-text">acontece.</span>
         </SectionHead>
         <Reveal className="local-grid">
@@ -18,7 +18,9 @@ export default function DataLocal() {
               </div>
               <div>
                 <h5>{site.evento.data.label}</h5>
-                <p>Dois dias de imersão presencial em Direito Administrativo.</p>
+                <p>
+                  Dois dias de imersão presencial · {site.evento.horario}.
+                </p>
               </div>
             </div>
             <div className="row">
@@ -26,7 +28,9 @@ export default function DataLocal() {
                 ⌖
               </div>
               <div>
-                <h5>{site.evento.local.nome}</h5>
+                <h5>
+                  {site.evento.local.nome} · {site.evento.local.sala}
+                </h5>
                 <p>
                   {site.evento.local.endereco}
                   <br />
@@ -51,7 +55,7 @@ export default function DataLocal() {
             <iframe
               className="map-frame"
               src={site.evento.local.mapsEmbed}
-              title={`Mapa — ${site.evento.local.nome}, ${site.evento.local.cidade}`}
+              title={`Mapa de ${site.evento.local.nome}, ${site.evento.local.cidade}`}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen

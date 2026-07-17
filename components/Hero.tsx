@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="hero-glow" aria-hidden />
       <div className="hero-side" aria-hidden>
-        LCE n. 491/2010 — Santa Catarina
+        LCE n. 491/2010, Santa Catarina
       </div>
       <div className="wrap hero-inner">
         <span className="eyebrow">
@@ -29,9 +29,9 @@ export default function Hero() {
         <div className="hero-cols">
           <div className="hero-lead">
             <p className="lead">
-              Da abertura ao julgamento — um percurso técnico e completo pelo PAD à luz
-              da Lei Complementar n. 491/2010, conduzido por advogados de referência em
-              Direito Administrativo de Santa Catarina.
+              Da abertura ao julgamento, um percurso técnico e completo pelo PAD à luz
+              do Estatuto Jurídico Disciplinar no âmbito da Administração Direta e
+              Indireta do Estado de Santa Catarina e seus Municípios.
             </p>
             <div className="cta-row">
               <a
@@ -70,7 +70,7 @@ export default function Hero() {
           </div>
           <div className="m">
             <div className="k">Corpo docente</div>
-            <div className="v">4 advogados</div>
+            <div className="v">4 especialistas</div>
           </div>
           <div className="m">
             <div className="k">Base legal</div>

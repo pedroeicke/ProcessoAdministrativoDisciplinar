@@ -521,6 +521,19 @@ section[id] {
 .porque {
   background: #04030f;
 }
+.publico-intro {
+  max-width: 64ch;
+  margin-top: 30px;
+}
+.publico-intro p {
+  color: var(--bone-dim);
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 18px;
+}
+.publico-intro p:last-child {
+  margin-bottom: 0;
+}
 .verbs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1004,19 +1017,33 @@ section[id] {
   color: var(--bone-faint);
   margin-bottom: 28px;
 }
-.insc-right .pay {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 22px;
+.pay-info {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line-soft);
+  font-size: 0.82rem;
+  line-height: 1.62;
+  color: var(--bone-dim);
 }
-.insc-right .pay span {
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
+.pay-info p {
+  margin-bottom: 12px;
+}
+.pay-info .pay-title {
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--g2);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.pay-info .pay-org,
+.pay-info .pay-bank {
+  color: var(--bone);
+}
+.pay-info .pay-obs {
+  font-size: 0.76rem;
   color: var(--bone-faint);
-  padding: 6px 12px;
-  border: 1px solid var(--line-soft);
-  border-radius: 2px;
+  margin-bottom: 0;
 }
 
 /* CONTATO */

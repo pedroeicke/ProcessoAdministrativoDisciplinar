@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
   return (
     <a
       className="wa-fab"
-      href={site.inscricaoHref}
+      href={site.contato.whatsapp.href}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Falar no WhatsApp"

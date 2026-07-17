@@ -20,7 +20,7 @@ export default function OCurso() {
               }}
             >
               A LCE n. 491/2010 uniformiza o procedimento administrativo disciplinar em
-              Santa Catarina e serve de guia para os municípios catarinenses — evitando
+              Santa Catarina e serve de guia para os municípios catarinenses, evitando
               que gestores fiquem omissos ou errem por falta de regulamentação local.
             </p>
           </div>
@@ -32,12 +32,12 @@ export default function OCurso() {
             que separa a decisão segura da nulidade.
           </p>
           <p>
-            Este curso percorre todo o ciclo —{" "}
+            Este curso percorre todo o ciclo{" "}(
             <strong>
               fundamentos e dever de agir, investigações e ritos sumários, a fase técnica
               de instrução e provas, até a defesa, o julgamento e os recursos
-            </strong>{" "}
-            — sempre observando que as sanções civis, penais e administrativas são
+            </strong>
+            ), sempre observando que as sanções civis, penais e administrativas são
             independentes entre si.
           </p>
           <p>
