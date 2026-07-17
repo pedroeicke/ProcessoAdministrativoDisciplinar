@@ -1097,6 +1097,12 @@ section[id] {
   min-height: 120px;
   resize: vertical;
 }
+.form .form-hint {
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--bone-faint);
+  text-align: center;
+}
 
 /* FOOTER */
 footer {
