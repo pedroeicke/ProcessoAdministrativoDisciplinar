@@ -13,10 +13,9 @@ export default function Contato() {
     e.preventDefault();
     const fd = new FormData(e.currentTarget);
     const nome = String(fd.get("nome") ?? "").trim();
-    const email = String(fd.get("email") ?? "").trim();
     const mensagem = String(fd.get("mensagem") ?? "").trim();
 
-    const texto = `Olá! Sou ${nome}${email ? ` (${email})` : ""}.\n\n${mensagem}`;
+    const texto = `Olá! Sou ${nome}.\n\n${mensagem}`;
     window.open(
       `${site.contato.whatsapp.href}?text=${encodeURIComponent(texto)}`,
       "_blank",
@@ -48,7 +47,6 @@ export default function Contato() {
           </div>
           <form className="form" onSubmit={onSubmit}>
             <input type="text" name="nome" placeholder="Nome" aria-label="Nome" required />
-            <input type="email" name="email" placeholder="E-mail" aria-label="E-mail" />
             <textarea
               name="mensagem"
               placeholder="Sua mensagem"
