@@ -247,23 +247,6 @@ nav {
   filter: blur(40px);
   pointer-events: none;
 }
-.hero-side {
-  position: absolute;
-  left: clamp(20px, 5vw, 64px);
-  top: 50%;
-  transform: translateY(-50%) rotate(180deg);
-  writing-mode: vertical-rl;
-  font-size: 0.66rem;
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  color: var(--bone-faint);
-  font-weight: 600;
-}
-@media (max-width: 1100px) {
-  .hero-side {
-    display: none;
-  }
-}
 .hero-inner {
   position: relative;
   z-index: 2;

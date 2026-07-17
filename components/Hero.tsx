@@ -7,9 +7,6 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-glow" aria-hidden />
-      <div className="hero-side" aria-hidden>
-        LCE n. 491/2010, Santa Catarina
-      </div>
       <div className="wrap hero-inner">
         <span className="eyebrow">
           Presencial · Florianópolis · {site.evento.data.curto}
